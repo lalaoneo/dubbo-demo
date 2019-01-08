@@ -1,5 +1,9 @@
 package com.lori.dubbo.provider.api.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
+import com.lori.dubbo.provider.api.HelloWord;
+import org.springframework.beans.factory.annotation.Value;
+
 @Service(
         version="1.0.0",
         application="${dubbo.application.id}",
